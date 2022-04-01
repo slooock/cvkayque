@@ -6,7 +6,11 @@ export const Container = styled.div`
 
   display: grid;
 
-  grid-template-columns: 260px 740px;
+  grid-template-columns: 260px 1fr;
+
+  @media (max-width: 800px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const Left = styled.div`
@@ -94,9 +98,13 @@ export const Left = styled.div`
 `;
 
 export const Right = styled.div`
+  @media (max-width: 800px) {
+    overflow: visible;
+  }
   background-color: white;
   overflow: auto;
   scroll-behavior: smooth;
+  max-width: 740px;
 
   .header {
     display: flex;

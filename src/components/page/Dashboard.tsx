@@ -52,28 +52,29 @@ export function Dashboard() {
             </div>
             <div className="intro">
               <p>
-                Hello, My name is John Doe. Lorem ipsum dolor sit amet, usu sumo
-                dicant vulputate in. Quando fabellas adipiscing nam an. An vis
-                congue oporteat, no eros facer suavitate eos. An debet affert
-                aliquid ius. Veritus placerat est ea, est ne nominavi suscipit
-                maluisset.
+                Olá eu sou o Kayque Avelar, bacharel em Ciência da Computação
+                pela Universidade Federal de Viçosa. Em essência sou bom em
+                resolução de problemas e em enxergar como individualidades podem
+                gerar melhores resultados se tratadas com atenção. Minhas força
+                de vontade e resiliência me guiam por estes desafios de forma
+                diária.
               </p>
               <div className="info">
                 <div className="line">
-                  <div className="atribute">Birthday:</div>
-                  <div className="response">August 14, 1982</div>
+                  <div className="atribute">Nascimento:</div>
+                  <div className="response">26 Abril, 1993</div>
                 </div>
                 <div className="line">
-                  <div className="atribute">Location:</div>
-                  <div className="response">Central Main Rd, Australia</div>
+                  <div className="atribute">Endereço:</div>
+                  <div className="response">Belo Horizonte - MG</div>
                 </div>
                 <div className="line">
                   <div className="atribute">Email:</div>
-                  <div className="response">contact@yourmail.com</div>
+                  <div className="response">kayque.avelar@gmail.com</div>
                 </div>
                 <div className="line">
                   <div className="atribute">Phone:</div>
-                  <div className="response">+111 1234-1234</div>
+                  <div className="response">31 97546 0850</div>
                 </div>
                 <div className="skills">
                   <div className="skill">

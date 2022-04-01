@@ -33,13 +33,15 @@ html{
   }
 }
 
-//REM  = 1rem = font-size da minha pagina 
+//REM  = 1rem = font-size da minha pagina
 
   body{
     background:var(--background);
-    -webkit-font-smoothing:antialiased;//Deixamos q a fontes fiquem mais detalhadas 
+    -webkit-font-smoothing:antialiased;//Deixamos q a fontes fiquem mais detalhadas
+    @media (max-width: 500px) {
+      width: 100%;
+    }
   }
-  
 
 body,input,textArea,button{
   font-family: 'Poppins', sans-serif;
