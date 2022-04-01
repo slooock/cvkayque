@@ -53,6 +53,7 @@ export const Left = styled.div`
 
   .social-icons {
     display: flex;
+    margin-left: -10px;
 
     margin-bottom: 15px;
     div + div {
@@ -67,6 +68,9 @@ export const Left = styled.div`
   }
 
   .main-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
     .itemMain {
       color: #fff;
       font-family: "Poppins", sans-serif;
@@ -101,8 +105,12 @@ export const Right = styled.div`
   }
 
   section {
-    padding: 60px 70px 60px 70px;
+    padding: 60px 0px 60px 0px;
     border-bottom: solid 1px #eee;
+    .about {
+      margin-left: 70px;
+      margin-right: 70px;
+    }
   }
 
   h2 {
@@ -178,13 +186,46 @@ export const Right = styled.div`
   }
 
   .education {
+    .header {
+      margin-left: 70px;
+    }
     .itemEducation {
       margin-bottom: 30px;
+
+      .headerEducation {
+        .date {
+          width: 80px;
+        }
+        h2 {
+          width: 100%;
+        }
+        .organization {
+          /* width: 70px; */
+          margin: 0px;
+        }
+
+        .flex {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+          width: 300px;
+          padding-right: 30px;
+
+          .organization {
+            text-align: end;
+          }
+          .date {
+            text-align: end;
+          }
+        }
+      }
+
       h2 {
         font-size: 16px;
         font-weight: 700;
         margin: 0 0 10px;
         color: black;
+        margin-left: 70px;
       }
 
       span {
@@ -195,6 +236,11 @@ export const Right = styled.div`
         margin: 0 0 10px;
       }
 
+      div {
+        display: flex;
+        /* justify-content: flex-end; */
+      }
+
       p {
         color: #2c2c2c;
         font-family: "Poppins", sans-serif;
@@ -202,6 +248,7 @@ export const Right = styled.div`
 
         line-height: 20px;
         margin-bottom: 0;
+        padding: 0 70px 0 70px;
       }
     }
   }

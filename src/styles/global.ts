@@ -13,7 +13,7 @@ export const GlobalStyle = createGlobalStyle`
     display: flex;
     justify-content: center;
   }
-  
+
   *{
     margin:0;
     padding:0;
@@ -39,6 +39,7 @@ html{
     background:var(--background);
     -webkit-font-smoothing:antialiased;//Deixamos q a fontes fiquem mais detalhadas 
   }
+  
 
 body,input,textArea,button{
   font-family: 'Poppins', sans-serif;
