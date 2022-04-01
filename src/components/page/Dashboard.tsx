@@ -10,7 +10,7 @@ export function Dashboard() {
       <Left>
         <div className="avatar">
           <img
-            src="http://www.designstub.com/demos/onepageresume/assets/images/my-pic.jpg"
+            src="https://media-exp1.licdn.com/dms/image/C4E03AQEaqAc7f1ntrQ/profile-displayphoto-shrink_800_800/0/1543589025612?e=1654128000&v=beta&t=vP2bmeu8RzDWu_xP_-wjwfDdb08T5aa9TeLCcViTZqs"
             alt="avatar"
           />
         </div>
@@ -38,9 +38,9 @@ export function Dashboard() {
           <Button variant="text" className="itemMain" href="#experiencia">
             EXPERIÊNCIA
           </Button>
-          <Button variant="text" className="itemMain">
+          {/* <Button variant="text" className="itemMain">
             TRABALHOS
-          </Button>
+          </Button> */}
         </div>
       </Left>
       <Right>
@@ -48,7 +48,7 @@ export function Dashboard() {
           <div className="about">
             <div className="header">
               <h2>SOBRE MIM</h2>
-              <div>Download Resume</div>
+              {/* <div>Download Resume</div> */}
             </div>
             <div className="intro">
               <p>
