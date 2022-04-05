@@ -68,6 +68,13 @@ export const Left = styled.div`
     .itemMain {
       color: white;
       font-size: 20px;
+
+      a {
+        margin: 0;
+        display: flex;
+        /* width: 21px; */
+        color: white;
+      }
     }
   }
 
@@ -157,9 +164,12 @@ export const Right = styled.div`
 
   .skills {
     margin-top: 60px;
+    /*
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 40px;
+    gap: 40px; */
+    display: flex;
+    flex-direction: column;
 
     .skill {
       width: 100%;

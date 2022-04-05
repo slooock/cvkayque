@@ -20,10 +20,22 @@ export function Dashboard() {
         </div>
         <div className="social-icons">
           <IconButton className="itemMain">
-            <FaLinkedin />
+            <a
+              href="https://www.linkedin.com/in/slooock/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaLinkedin />
+            </a>
           </IconButton>
           <IconButton className="itemMain">
-            <FaGithub />
+            <a
+              href="https://github.com/slooock"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithub />
+            </a>
           </IconButton>
         </div>
 
@@ -77,7 +89,10 @@ export function Dashboard() {
                   <div className="response">31 97546 0850</div>
                 </div>
                 <div className="skills">
-                  <div className="skill">
+                  <h3>Linguagens e Frameworks</h3>
+                  TypeScript, React, Angular, React, Native, Golang, VueJS,
+                  Python, Flutter, Flask.
+                  {/* <div className="skill">
                     <div className="header">
                       <h3 className="name">React</h3>
                       <span className="value">90%</span>
@@ -112,7 +127,7 @@ export function Dashboard() {
                     <div className="bar">
                       <div></div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
