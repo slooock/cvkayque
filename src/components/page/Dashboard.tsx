@@ -3,16 +3,14 @@ import { Container, Left, Right } from "./styles";
 import { FaLinkedin, FaGithub, FaDownload } from "react-icons/fa";
 import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
+import photo from "../../assets/img.jpeg";
 
 export function Dashboard() {
   return (
     <Container>
       <Left>
         <div className="avatar">
-          <img
-            src="https://media-exp1.licdn.com/dms/image/C4E03AQEaqAc7f1ntrQ/profile-displayphoto-shrink_800_800/0/1543589025612?e=1654128000&v=beta&t=vP2bmeu8RzDWu_xP_-wjwfDdb08T5aa9TeLCcViTZqs"
-            alt="avatar"
-          />
+          <img src={photo} alt="avatar" />
         </div>
         <div className="name">
           <h1>Kayque Avelar</h1>
