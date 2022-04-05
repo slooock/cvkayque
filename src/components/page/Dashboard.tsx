@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Left, Right } from "./styles";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaDownload } from "react-icons/fa";
 import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 
@@ -18,6 +18,7 @@ export function Dashboard() {
           <h1>Kayque Avelar</h1>
           <span>Egenheiro de Software</span>
         </div>
+
         <div className="social-icons">
           <IconButton className="itemMain">
             <a
@@ -60,7 +61,13 @@ export function Dashboard() {
           <div className="about">
             <div className="header">
               <h2>SOBRE MIM</h2>
-              {/* <div>Download Resume</div> */}
+
+              <Button className="itemMain">
+                <FaDownload></FaDownload>
+                <a href={require("../../assets/kaqueavelar.pdf")} download>
+                  Download Resume
+                </a>
+              </Button>
             </div>
             <div className="intro">
               <p>

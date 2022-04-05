@@ -117,6 +117,21 @@ export const Right = styled.div`
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
+
+    .itemMain {
+      background-color: #5655da;
+      color: white;
+      padding: 0px;
+      text-transform: capitalize;
+      height: 28px;
+      width: 164px;
+      a {
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+        margin: 5px;
+      }
+    }
   }
 
   section {
