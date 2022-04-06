@@ -16,6 +16,7 @@ export const Container = styled.div`
 export const Left = styled.div`
   background-color: #5655da;
   padding: 46px;
+
   color: #fff;
 
   .avatar {
