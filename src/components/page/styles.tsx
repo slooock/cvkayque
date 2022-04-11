@@ -141,6 +141,10 @@ export const Right = styled.div`
     .about {
       margin-left: 70px;
       margin-right: 70px;
+      @media (max-width: 560px) {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
     }
   }
 
@@ -222,6 +226,10 @@ export const Right = styled.div`
   .education {
     .header {
       margin-left: 70px;
+      @media (max-width: 560px) {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
     }
     .itemEducation {
       margin-bottom: 30px;
@@ -232,6 +240,10 @@ export const Right = styled.div`
         }
         h2 {
           width: 100%;
+          @media (max-width: 560px) {
+            margin-left: 20px;
+            margin-right: 20px;
+          }
         }
         .organization {
           /* width: 70px; */
@@ -283,6 +295,9 @@ export const Right = styled.div`
         line-height: 20px;
         margin-bottom: 0;
         padding: 0 70px 0 70px;
+        @media (max-width: 560px) {
+          padding: 0 20px 0 20px;
+        }
       }
     }
   }
