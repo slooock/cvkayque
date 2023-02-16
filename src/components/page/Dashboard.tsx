@@ -201,7 +201,7 @@ export function Dashboard() {
                 </div>
                 <p>
                   Integrande do time de experiência da Globo, que é responsável
-                  pela construção e ma- nutenção das SDKs em SmartTVs do
+                  pela construção e manutenção das SDKs em SmartTVs do
                   GloboID, utilizando Typescript e Golang
                 </p>
               </div>
