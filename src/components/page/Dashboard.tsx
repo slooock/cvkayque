@@ -50,6 +50,9 @@ export function Dashboard() {
             <Button variant="text" className="itemMain" href="#experiencia">
               EXPERIÊNCIA
             </Button>
+            <Button variant="text" className="itemMain" href="#trabalhosVoluntarios">
+              TRABLAHOS VOLUNTÁRIOS
+            </Button>
             {/* <Button variant="text" className="itemMain">
             TRABALHOS
           </Button> */}
@@ -188,12 +191,28 @@ export function Dashboard() {
               <div className="header">
                 <h2>EXPERIÊNCIA</h2>
               </div>
+
+              <div className="itemEducation">
+                <div className="headerEducation">
+                  <h2>Engenheiro de Software</h2>
+                  <div className="flex">
+                    <span className="organization">CI&T</span>
+                    <span className="date">2022–Atual</span>
+                  </div>
+                </div>
+                <p>
+                  Integrande do time de experiência da Globo, que é responsável
+                  pela construção e ma- nutenção das SDKs em SmartTVs do
+                  GloboID, utilizando Typescript e Golang
+                </p>
+              </div>
+
               <div className="itemEducation">
                 <div className="headerEducation">
                   <h2>Engenheiro de Software</h2>
                   <div className="flex">
                     <span className="organization">Agility</span>
-                    <span className="date">2020–Atual</span>
+                    <span className="date">2020–2022</span>
                   </div>
                 </div>
                 <p>
@@ -203,23 +222,6 @@ export function Dashboard() {
                   Angular, desenvolvimento de cli utilizando Golang e
                   planejamento e criação de pipelines CI/CD com Gitlab CI,
                   Jenkins.
-                </p>
-              </div>
-            </div>
-
-            <div className="education">
-              <div className="itemEducation">
-                <div className="headerEducation">
-                  <h2>Engenheiro de Software</h2>
-                  <div className="flex">
-                    <span className="organization">TEDx Belo Horizonte</span>
-                    <span className="date">2020–2022</span>
-                  </div>
-                </div>
-                <p>
-                  No GoStack o aluno vai a fundo nas tecnologias NodeJS, ReactJS
-                  e React Native, e todo o ecossistema ao redor dessas
-                  ferramentas, do zero ao deploy.
                 </p>
               </div>
             </div>
@@ -297,24 +299,6 @@ export function Dashboard() {
             <div className="education">
               <div className="itemEducation">
                 <div className="headerEducation">
-                  <h2>Diretor Gestão de Pessoas</h2>
-                  <div className="flex">
-                    <span className="organization">
-                      SetApp - Empresa Júnior de Ciência da Computação, UFV
-                    </span>
-                    <span className="date">2016–2018</span>
-                  </div>
-                </div>
-                <p>
-                  Responsável por recrutamento, resolução de conflitos internos,
-                  delegação de tarefas, auxílio no desenvolvimento de projetos.
-                </p>
-              </div>
-            </div>
-
-            <div className="education">
-              <div className="itemEducation">
-                <div className="headerEducation">
                   <h2>Desenvolvedor - Bolsista FAPEMIG</h2>
                   <div className="flex">
                     <span className="organization">
@@ -345,6 +329,56 @@ export function Dashboard() {
                   Controle de correspondências e documentos, elaboração de
                   relatórios e planilhas.
                 </p>
+              </div>
+            </div>
+          </section>
+
+          <section id="trabalhosVoluntarios">
+            <div className="education">
+              <div className="education">
+                <div className="header">
+                  <h2>TRABLHOS VOLUNTÁRIOS</h2>
+                </div>
+                <div className="education">
+                  <div className="itemEducation">
+                    <div className="headerEducation">
+                      <h2>Engenheiro de Software</h2>
+                      <div className="flex">
+                        <span className="organization">
+                          TEDx Belo Horizonte
+                        </span>
+                        <span className="date">2020–2022</span>
+                      </div>
+                    </div>
+                    <p>
+                      Integrante do time de TI do TEDxBeloHorizonte 2021 que é
+                      responsável por entregar a viabilização de cadastro dos
+                      participantes, aplicação para enriquecer a experiência do
+                      usuário durante o evento usando React com TypeScript e
+                      planejamento e criação de pipelines CI/CD com GitLab CI.
+                    </p>
+                  </div>
+
+                  <div className="education">
+                    <div className="itemEducation">
+                      <div className="headerEducation">
+                        <h2>Diretor Gestão de Pessoas</h2>
+                        <div className="flex">
+                          <span className="organization">
+                            SetApp - Empresa Júnior de Ciência da Computação,
+                            UFV
+                          </span>
+                          <span className="date">2016–2018</span>
+                        </div>
+                      </div>
+                      <p>
+                        Responsável por recrutamento, resolução de conflitos
+                        internos, delegação de tarefas, auxílio no
+                        desenvolvimento de projetos.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
