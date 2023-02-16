@@ -51,7 +51,7 @@ export function Dashboard() {
               EXPERIÊNCIA
             </Button>
             <Button variant="text" className="itemMain" href="#trabalhosVoluntarios">
-              TRABLAHOS VOLUNTÁRIOS
+              TRABALHOS VOLUNTÁRIOS
             </Button>
             {/* <Button variant="text" className="itemMain">
             TRABALHOS
@@ -101,8 +101,7 @@ export function Dashboard() {
                   </div>
                   <div className="skills">
                     <h3>Linguagens e Frameworks</h3>
-                    TypeScript, React, Angular, React, Native, Golang, VueJS,
-                    Python, Flutter, Flask.
+                    TypeScript, Golang, React, Angular, React, Native, VueJS, Flutter, Flask.
                     {/* <div className="skill">
                     <div className="header">
                       <h3 className="name">React</h3>
@@ -337,7 +336,7 @@ export function Dashboard() {
             <div className="education">
               <div className="education">
                 <div className="header">
-                  <h2>TRABLHOS VOLUNTÁRIOS</h2>
+                  <h2>TRABALHOS VOLUNTÁRIOS</h2>
                 </div>
                 <div className="education">
                   <div className="itemEducation">
